@@ -11,7 +11,7 @@ if( ! class_exists( 'Evotox_Updater' ) ){
 }
 $updater = new Evotox_Updater( __FILE__ );
 $updater->set_username( 'evotox' );
-$updater->set_repository( 'plugin-updater' );
+$updater->set_repository( 'evotox-plugin-updater' );
 /*
 	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
 */
