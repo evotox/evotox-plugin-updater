@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Evotox Plugin
 	Description: This is for updating your Wordpress plugin.
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: Mubeen Khan
 	Author URI: http://www.evotox.com
 */
