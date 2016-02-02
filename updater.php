@@ -96,9 +96,9 @@ class Evotox_Updater{
 
 	public function plugin_popup( $result, $action, $args ) {
 
-		if( ! empty( $args->slug ) ) { // If there is a slug
+		if( ! empty( $this->basename ) ) { // If there is a slug
 			
-			if( $args->slug == explode('/' , $this->basename) ) { // And it's our slug
+			if( $this->basename == explode('/' , $this->basename) ) { // And it's our slug
 
 				$this->get_repository_info(); // Get our repo info
 
