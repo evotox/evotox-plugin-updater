@@ -1,10 +1,10 @@
 <?php
 /*
-	Plugin Name: Evotox Plugin
-	Description: This is for updating your Wordpress plugin.
-	Version: 1.0.3
-	Author: Mubeen Khan
-	Author URI: http://www.evotox.com
+Plugin Name: Evotox Plugin
+Description: This is for updating your Wordpress plugin.
+Version: 1.0.4
+Author: Mubeen Khan
+Author URI: http://www.evotox.com
 */
 if( ! class_exists( 'Evotox_Updater' ) ){
 	include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
@@ -18,5 +18,6 @@ $updater->initialize();
 add_action('wp_footer', 'evotox_test');
 
 function evotox_test(){
-    echo '<h1 style="position: fixed; bottom: 10px; right: 10px;">Hello World...!</h1>';
+    echo '<style>.evo-footer{position: fixed; bottom: 10px; right: 10px;}</style>';
+    echo '<h1 class="evo-footer">Hello World! - Hello Plugin</h1>';
 }
