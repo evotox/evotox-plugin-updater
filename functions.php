@@ -7,4 +7,7 @@ function evotox_test(){
     echo '<h1 class="evo-footer">Hello World! - Functions Gose Here...</h1>';
 }
 
+function tester(){
+	return $php_developer;
+}
 ?>
